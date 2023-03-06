@@ -5,14 +5,7 @@ import {BsFillEyeFill } from 'react-icons/bs'
 import Image from 'next/image'
 const ColorBlind = () => {
     const [mounted, setMounted] = useState (false)
-    // useEffect only runs on the client, so now we can safely show the UI
-    useEffect(() => {
-     setMounted(true)
-   }, [])
- 
-   if (!mounted) {
-     return null
-   }
+   
     const {systemTheme, theme, setTheme } = useTheme()
   
  const renderThemeChanger = ()=>{
@@ -37,6 +30,14 @@ const ColorBlind = () => {
   }
  
  }
+  // useEffect only runs on the client, so now we can safely show the UI
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
+  if (!mounted) {
+    return null
+  }
   return (
     <div className='transition-all duration-300 '>
        
