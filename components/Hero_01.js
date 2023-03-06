@@ -21,10 +21,10 @@ const Hero_01 = () => {
       <div className="container gap-5 xl:justify-between px-20 py-16 rounded-3xl items-center flex flex-col xl:flex-row  ">
       <div className="flex flex-col gap-10 md:flex-row justify-center md:justify-between items-center">
         <div className="flex flex-col gap-10  items-center md:items-start">
-          <p className="text-3xl md:text-5xl lg:text-6xl font-semibold dark:text-white text-center md:text-start">Celebrate <span className="text-primary">Ramadan</span>  <br /> With Everyone</p>
+          <p className="text-3xl md:text-5xl lg:text-6xl font-semibold  text-center md:text-start">Celebrate <span className="text-primary dark:text-primary-50">Ramadan</span>  <br /> With Everyone</p>
           <p className="text-base md:text-lg  text-center md:text-start">Ramadan is a holy month for Muslims. It is when they fast, pray, <br /> reflect and do good deeds1. Ramadan follows the lunar calendar, <br /> so it changes every year2. In 2023, it will start on March 23.</p>
           <div className="flex flex-col md:flex-row gap-5 items-center">
-            <button onClick={openModal}  className="bg-primary flex items-center gap-2 px-4 py-3 font-medium hover:scale-95 duration-300 transition shadow-xl shadow-[#056691]/30 hover:shadow-[#ecedc7] text-white hover:bg-[#ecc79e] rounded-full hover:text-black capitalize text-lg">Donate People
+            <button onClick={openModal}  className="bg-primary dark:bg-primary-50 flex items-center gap-2 px-4 py-3 font-medium hover:scale-95 duration-300 transition shadow-xl shadow-primary/30 hover:shadow-[#ecedc7] dark:shadow-primary-50/20 text-white hover:bg-[#ecc79e] rounded-full hover:text-black capitalize text-lg">Donate People
             <BiDonateHeart/>
             </button>
             <button className="text-xl capitalize font-semibold">How It Works</button>
@@ -87,7 +87,7 @@ const Hero_01 = () => {
       
         </div>
       </div>
-      <img className="max-w-lg w-full rounded-2xl" src="./assets/hero.svg" alt="https://www.freepik.com/author/stories" />
+      <img className="max-w-lg w-full rounded-2xl dark:hue-rotate-180" src="./assets/hero.svg" alt="https://www.freepik.com/author/stories" />
       </div>
      
     </div>

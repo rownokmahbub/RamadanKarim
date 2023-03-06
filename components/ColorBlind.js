@@ -12,7 +12,7 @@ const ColorBlind = () => {
   const currentTheme = theme === 'system' ? systemTheme : theme
   if(currentTheme==='dark'){
     return(
-        <div className=' gap-2 btn btn-sm capitalize btn-primary rounded-full ' onClick={()=> setTheme('light')}>
+        <div className=' gap-2 flex items-center px-4 py-2 bg-primary cursor-pointer dark:bg-primary-50 text-white capitalize  rounded-full ' onClick={()=> setTheme('light')}>
         <p className='text-base font-medium'  >Color Blind On</p>
         <BsFillEyeFill className='w-5 h-6 cursor-pointer'/>  
     </div>
@@ -21,7 +21,7 @@ const ColorBlind = () => {
   }
   else{
      return(
-        <div className='flex justify-center gap-2 btn btn-sm capitalize btn-primary rounded-full items-center'onClick={()=> setTheme('dark')}>
+        <div className='gap-2 flex items-center px-4 py-2 bg-primary cursor-pointer dark:bg-primary-50 text-white capitalize  rounded-full'onClick={()=> setTheme('dark')}>
         <p className='text-base font-medium'  >Color Blind Off</p>
         <RiEyeCloseFill className='w-7 h-6 cursor-pointer'  /> 
     </div>

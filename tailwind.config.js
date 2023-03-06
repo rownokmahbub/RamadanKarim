@@ -35,13 +35,13 @@ module.exports = {
 
       colors: {
         bg: {
-          DEFAULT: "#e9a68f",
+          DEFAULT: "#d87666",
           200: "#272727",
           300: "#2e2e2e",
         },
         primary: {
-          DEFAULT: "#e9a68f",
-          50: "#F7C6C6",
+          DEFAULT: "#d87666",
+          50: "#8d8565",
           100: "#F5B4B4",
           200: "#F09090",
           300: "#EC6C6C",
@@ -60,8 +60,8 @@ module.exports = {
       {
         black: {
           ...require("daisyui/src/colors/themes")["[data-theme=light]"],
-          primary: "#e9a68f",
-          "primary-focus": "#eca001",
+          primary: "#d87666",
+          "primary-focus": "#b7ad8d",
         },
       },
     ],

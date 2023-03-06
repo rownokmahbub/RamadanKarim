@@ -17,9 +17,9 @@ export const Nav = () => {
             title="Company"
             class="inline-flex items-center"
           >
-           <img className="w-12" src="./assets/logo.svg" alt="logo" />
+           <img className="w-12 dark:sepia " src="./assets/logo.svg" alt="logo" />
             <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-             Ramadan
+             Raman
             </span>
           </Link>
           <ul class="items-center hidden space-x-8 lg:flex">
@@ -58,7 +58,7 @@ export const Nav = () => {
                 href="/"
                 aria-label="About us"
                 title="About us"
-                class="font-medium tracking-wide dark:text-white text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                class="font-medium tracking-wide  text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 About us
               </Link>
