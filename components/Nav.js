@@ -9,8 +9,8 @@ export const Nav = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
   
     return (
-      <div class="container mx-auto py-2">
-        <div class="relative flex items-center justify-between">
+      <div class="relative">
+        <div class="container mx-auto bg-white  py-2  flex items-center justify-between fixed top-0 left-0 right-0">
           <Link
             href="/"
             aria-label="Company"
@@ -103,23 +103,9 @@ export const Nav = () => {
                         title="Company"
                         class="inline-flex items-center"
                       >
-                        <svg
-                          class="w-8 text-deep-purple-accent-400"
-                          viewBox="0 0 24 24"
-                          strokeLinejoin="round"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeMiterlimit="10"
-                          stroke="currentColor"
-                          fill="none"
-                        >
-                          <rect x="3" y="1" width="7" height="12" />
-                          <rect x="3" y="17" width="7" height="6" />
-                          <rect x="14" y="1" width="7" height="6" />
-                          <rect x="14" y="11" width="7" height="12" />
-                        </svg>
+                      <img className="w-12 dark:sepia " src="./assets/logo.svg" alt="logo" />
                         <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                          Company
+                          Ramam
                         </span>
                       </Link>
                     </div>
