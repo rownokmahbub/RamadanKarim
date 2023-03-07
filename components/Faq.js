@@ -18,8 +18,8 @@ export default function Faq() {
                 />
               </Disclosure.Button>
               <Disclosure.Panel className="px-4 pt-4 pb-2 text-lg text-gray-700 transition duration-500">
-                If you're unhappy with your purchase for any reason, email us
-                within 90 days and we'll refund you in full, no questions asked.
+                If you are unhappy with your purchase for any reason, email us
+                within 90 days and we will refund you in full, no questions asked.
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente in sint perferendis, est autem facilis aut odio modi dignissimos. Ratione enim, magnam facere esse dolores officia. Inventore non nesciunt perspiciatis dolorem ipsa cum unde magnam a fuga ab minima, blanditiis eius earum vel ad quasi temporibus facere quis minus suscipit.
               </Disclosure.Panel>
             </div>
@@ -37,8 +37,9 @@ export default function Faq() {
                 />
               </Disclosure.Button>
               <Disclosure.Panel className="px-4 pt-4 pb-2 text-lg text-gray-700 transition duration-500">
-                If you're unhappy with your purchase for any reason, email us
-                within 90 days and we'll refund you in full, no questions asked.
+              If you are unhappy with your purchase for any reason, email us
+                within 90 days and we will refund you in full, no questions asked.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente in sint perferendis, est autem facilis aut odio modi dignissimos. Ratione enim, magnam facere esse dolores officia. Inventore non nesciunt perspiciatis dolorem ipsa cum unde magnam a fuga ab minima, blanditiis eius earum vel ad quasi temporibus facere quis minus suscipit.
               </Disclosure.Panel>
             </div>
           )}
@@ -55,8 +56,9 @@ export default function Faq() {
                 />
               </Disclosure.Button>
               <Disclosure.Panel className="px-4 pt-4 pb-2 text-lg text-gray-700 transition duration-500">
-                If you're unhappy with your purchase for any reason, email us
-                within 90 days and we'll refund you in full, no questions asked.
+              If you are unhappy with your purchase for any reason, email us
+                within 90 days and we will refund you in full, no questions asked.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente in sint perferendis, est autem facilis aut odio modi dignissimos. Ratione enim, magnam facere esse dolores officia. Inventore non nesciunt perspiciatis dolorem ipsa cum unde magnam a fuga ab minima, blanditiis eius earum vel ad quasi temporibus facere quis minus suscipit.
               </Disclosure.Panel>
             </div>
           )}
