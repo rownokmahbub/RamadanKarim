@@ -13,7 +13,8 @@ const Calender = () => {
             <p>Fajar Time</p>
         </div>
       
-        <div className="grid grid-cols-6 gap-28 items-center text-xl capitalize font-normal w-full px-4 py-4 rounded-xl border border-gray-300 hover:bg-primary dark:hover:bg-primary-50 text-center hover:text-white  shadow-lg shadow-primary/20 dark:shadow-primary-50/20">
+      <div className="border-2 border-primary px-4 py-4 flex flex-col gap-4 rounded-2xl shadow-2xl shadow-primary/30">
+      <div className="grid grid-cols-6 gap-28 items-center text-xl capitalize font-normal w-full px-4 py-4 rounded-xl border border-gray-300 hover:bg-primary dark:hover:bg-primary-50 text-center hover:text-white  shadow-lg shadow-primary/20 dark:shadow-primary-50/20">
         <p>01</p>
         <p>23 Apr 2023</p>
         <p>Monday</p>
@@ -101,8 +102,10 @@ const Calender = () => {
         <p>4:40 AM</p>
         <p>6:23 PM</p>
     </div>
-    
-    <div className="grid grid-cols-6 gap-28 items-center text-xl capitalize font-normal w-full px-4 py-4 rounded-xl border border-gray-300 hover:bg-primary dark:hover:bg-primary-50 text-center hover:text-white  shadow-lg shadow-primary/20 dark:shadow-primary-50/20">
+      </div>
+      
+      <div className="border-2 border-primary px-4 py-4 flex flex-col gap-4 rounded-2xl shadow-2xl shadow-primary/30">
+      <div className="grid grid-cols-6 gap-28 items-center text-xl capitalize font-normal w-full px-4 py-4 rounded-xl border border-gray-300 hover:bg-primary dark:hover:bg-primary-50 text-center hover:text-white  shadow-lg shadow-primary/20 dark:shadow-primary-50/20">
         <p>11</p>
         <p>03 May 2023</p>
         <p>Thursday</p>
@@ -186,7 +189,9 @@ const Calender = () => {
         <p>4:30 AM</p>
         <p>6:33 PM</p>
     </div>
-    <div className="grid grid-cols-6 gap-28 items-center text-xl capitalize font-normal w-full px-4 py-4 rounded-xl border border-gray-300 hover:bg-primary dark:hover:bg-primary-50 text-center hover:text-white  shadow-lg shadow-primary/20 dark:shadow-primary-50/20">
+        </div>
+        <div className="border-2 border-primary px-4 py-4 flex flex-col gap-4 rounded-2xl shadow-2xl shadow-primary/30">
+        <div className="grid grid-cols-6 gap-28 items-center text-xl capitalize font-normal w-full px-4 py-4 rounded-xl border border-gray-300 hover:bg-primary dark:hover:bg-primary-50 text-center hover:text-white  shadow-lg shadow-primary/20 dark:shadow-primary-50/20">
         <p>21</p>
         <p>13 May 2023</p>
         <p>Sunday</p>
@@ -271,6 +276,8 @@ const Calender = () => {
    
     
     
+            </div>
+   
         
         
     </div>
