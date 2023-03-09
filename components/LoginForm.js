@@ -1,6 +1,7 @@
 import React from 'react'
 import { Form,Formik,Field,ErrorMessage } from 'formik'
 import * as Yup from 'yup'
+import Link from 'next/link'
 const LoginForm = () => {
  
   const validationSchema =Yup.object().shape({
@@ -34,10 +35,11 @@ const LoginForm = () => {
            ) : null}
            <Field name="pass" type="password" className='px-2 py-2 bg-white border border-gray-300 rounded-lg focus:outline-none' placeholder='Rownok '/>
            {errors.pass && touched.pass ? <div  className='text-red-500 dark:text-primary-50 text-sm'>{errors.pass}</div> : null}
-           <button className='btn btn-primary dark:bg-primary-50' type="submit">Submit</button>
+           <button  className='btn btn-primary dark:bg-primary-50' type="submit">Submit</button>
          </Form>
        )}
      </Formik>
+     
     </div>
   )
 }

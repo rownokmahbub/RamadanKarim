@@ -2,8 +2,9 @@ import React, { useEffect, useState } from 'react'
 import { useTheme } from 'next-themes'
 import {RiEyeCloseFill } from 'react-icons/ri'
 import {BsFillEyeFill } from 'react-icons/bs'
-import Image from 'next/image'
+
 const ColorBlind = () => {
+
     const [mounted, setMounted] = useState (false)
    
     const {systemTheme, theme, setTheme } = useTheme()

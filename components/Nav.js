@@ -10,7 +10,7 @@ export const Nav = () => {
   
     return (
       <div class="relative">
-        <div class="container mx-auto bg-white  py-2  flex items-center justify-between fixed top-0 left-0 right-0">
+        <div class="container mx-auto bg-white  py-2  flex items-center justify-between fixed top-0 left-0 right-0 z-40">
           <Link
             href="/"
             aria-label="Company"
@@ -45,7 +45,7 @@ export const Nav = () => {
             </li>
             <li>
               <Link
-                href="/"
+                href="/donate"
                 aria-label="Product pricing"
                 title="Product pricing"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"

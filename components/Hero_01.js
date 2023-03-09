@@ -16,7 +16,7 @@ const Hero_01 = () => {
   }
 
   return (
-    <div className=" mx-auto bg-gradient-to-t from-indigo-50 via-purple-50 to-pink-50 py-10">
+    <div className=" mx-auto bg-gradient-to-r from-indigo-50 via-purple-50 to-pink-50 py-10">
       <div className="container gap-5 xl:justify-between px-20 py-16 rounded-3xl items-center flex flex-col xl:flex-row  ">
       <div className="flex flex-col gap-10 md:flex-row justify-center md:justify-between items-center">
         <div className="flex flex-col gap-10  items-center md:items-start">
@@ -55,6 +55,7 @@ const Hero_01 = () => {
               >
                 <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-slate-50 p-6 text-left align-middle shadow-xl transition-all">
               <LoginForm/>
+            
                 </Dialog.Panel>
               </Transition.Child>
             </div>
