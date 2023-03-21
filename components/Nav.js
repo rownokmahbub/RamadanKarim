@@ -45,7 +45,7 @@ export const Nav = () => {
             </li>
             <li>
               <Link
-                href="/donate"
+                href="/pricing"
                 aria-label="Product pricing"
                 title="Product pricing"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
