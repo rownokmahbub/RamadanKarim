@@ -1,10 +1,10 @@
 import Head from "next/head";
 import { Inter } from "next/font/google";
 import Hero_01 from "@/components/Hero_01";
-import { Nav } from "@/components/Nav";
+
 import Calender from "@/components/Calender";
 import Faq from "@/components/Faq";
-import { Footer } from "@/components/Footer";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,11 +17,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Nav />
+
       <Hero_01 />
       <Calender />
       <Faq />
-      <Footer />
+
     </>
   );
 }
