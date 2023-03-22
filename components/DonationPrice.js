@@ -4,11 +4,11 @@ import {BsPatchCheck, BsFillPatchCheckFill} from "react-icons/bs";
 const DonationPrice = () => {
 
   return (
-      <div className='bg-[#f1f7fd]'>
-          <div className='container mx-auto md:h-screen flex justify-center items-center flex-col'>
+      <div className='bg-[#f1f7fd] py-20'>
+          <div className='container mx-auto  flex justify-center items-center flex-col'>
               <p className='text-5xl font-bold text-center'>Our Donation Plan</p>
               <p className='text-base font-bold text-center mb-10'>Our Donation Plan</p>
-              <div className="grid grid-cols-3 gap-10 items-center">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 items-center">
                   <div className="px-6 py-6 flex flex-col justify-center items-center bg-white rounded-2xl shadow-xl shadow-[#eef4fa] hover:bg-primary
                   dark:hover:bg-primary-50 hover:text-white group">
                       <div className="flex justify-between items-center w-full mb-4">
