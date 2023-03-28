@@ -30,7 +30,7 @@ export const Nav = () => {
                 title="Our product"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
-                Product
+                About Us
               </Link>
             </li>
             <li>
@@ -40,7 +40,7 @@ export const Nav = () => {
                 title="Our product"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
-                Iftari
+                Gallery
               </Link>
             </li>
             <li>
@@ -60,7 +60,7 @@ export const Nav = () => {
                 title="About us"
                 class="font-medium tracking-wide  text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
-                About us
+                Sign In
               </Link>
             </li>
           </ul>
@@ -134,7 +134,7 @@ export const Nav = () => {
                           title="Our product"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Product
+                         Gallery
                         </Link>
                       </li>
                       <li>

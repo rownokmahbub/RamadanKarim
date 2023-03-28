@@ -26,7 +26,7 @@ const Hero_01 = () => {
             <button onClick={openModal}  className="bg-primary dark:bg-primary-50 flex items-center gap-2 px-4 py-3 font-medium hover:scale-95 duration-300 transition shadow-xl shadow-primary/30 hover:shadow-[#ecedc7] dark:shadow-primary-50/20 text-white hover:bg-[#ecc79e] rounded-full hover:text-black capitalize text-lg">Donate People
             <BiDonateHeart/>
             </button>
-            <button className="text-xl capitalize font-semibold">How It Works</button>
+
       
             <Transition appear show={isOpen} as={Fragment}>
         <Dialog as="div" className="relative z-10" onClose={closeModal}>
