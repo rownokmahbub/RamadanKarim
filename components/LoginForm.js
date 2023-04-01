@@ -1,11 +1,10 @@
 import React from 'react'
-import { Form,Formik,Field,ErrorMessage } from 'formik'
+import { Form,Formik,Field } from 'formik'
 import * as Yup from 'yup'
-import Link from 'next/link'
 const LoginForm = () => {
  
   const validationSchema =Yup.object().shape({
-    fname:Yup.string().max(25).min(3, 'too short').required('fist  name required !'),
+    fname:Yup.string().max(25).min(3, 'too short').required('first  name required !'),
     lname:Yup.string().max(25).min(3, 'too short').required('last name required !'),
     pass:Yup.string().max(20).min(6)
   })
