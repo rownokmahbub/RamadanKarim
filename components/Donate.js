@@ -4,7 +4,7 @@ const Donate = () => {
     const notify = () =>toast.success('Successfully created!');;
   return (
     <div>
-    <button onClick={notify}>Make me a toast</button>
+    <button onClick={notify}>Make me a df</button>
     <Toaster />
   </div>
   )
