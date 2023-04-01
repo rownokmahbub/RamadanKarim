@@ -40,7 +40,7 @@ const ColorBlind = () => {
     return null
   }
   return (
-    <div className='transition-all duration-300 '>
+    <div className='transition-all duration-500 '>
        
        {renderThemeChanger()}
    </div>

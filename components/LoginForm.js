@@ -5,8 +5,8 @@ import Link from 'next/link'
 const LoginForm = () => {
  
   const validationSchema =Yup.object().shape({
-    fname:Yup.string().max(25).min(3, 'too short').required('full name required !'),
-    lname:Yup.string().max(25).min(3, 'too short').required('full name required !'),
+    fname:Yup.string().max(25).min(3, 'too short').required('fist  name required !'),
+    lname:Yup.string().max(25).min(3, 'too short').required('last name required !'),
     pass:Yup.string().max(20).min(6)
   })
   return (
