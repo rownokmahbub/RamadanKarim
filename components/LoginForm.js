@@ -28,7 +28,7 @@ const LoginForm = () => {
            {errors.fname && touched.fname ? (
              <div className='text-red-500 dark:text-primary-50 text-sm'>{errors.fname}</div>
            ) : null}
-           <Field name="lname" className='px-2 py-2 bg-white border border-gray-300 rounded-lg focus:outline-none' placeholder='mahbub'/>
+           <Field name="lname" className='px-2 py-2 bg-white border border-gray-300 rounded-lg focus:outline-none' placeholder='Mahbub'/>
            {errors.lname && touched.lname ? (
              <div className='text-red-500 dark:text-primary-50 text-sm'>{errors.lname}</div>
            ) : null}
