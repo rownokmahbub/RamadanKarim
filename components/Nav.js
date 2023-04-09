@@ -19,7 +19,7 @@ export const Nav = () => {
           >
            <img className="w-12 dark:sepia " src="./assets/logo.svg" alt="logo" />
             <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-             Raman
+             Ramadan
             </span>
           </Link>
           <ul class="items-center hidden space-x-8 lg:flex">
@@ -55,7 +55,7 @@ export const Nav = () => {
             </li>
             <li>
               <Link
-                href="/"
+                href="/signin"
                 aria-label="About us"
                 title="About us"
                 class="font-medium tracking-wide  text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -105,7 +105,7 @@ export const Nav = () => {
                       >
                       <img className="w-12 dark:sepia " src="./assets/logo.svg" alt="logo" />
                         <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                          Ramam
+                          Ramadan
                         </span>
                       </Link>
                     </div>
@@ -134,7 +134,7 @@ export const Nav = () => {
                           title="Our product"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                         Gallery
+                         About Us
                         </Link>
                       </li>
                       <li>
@@ -144,27 +144,27 @@ export const Nav = () => {
                           title="Our product"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Features
+                          Gallery
                         </Link>
                       </li>
                       <li>
                         <Link
-                          href="/"
+                          href="/pricing"
                           aria-label="Product pricing"
                           title="Product pricing"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Pricing
+                          Donate
                         </Link>
                       </li>
                       <li>
                         <Link
-                          href="/"
+                          href="/signin"
                           aria-label="About us"
                           title="About us"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          About us
+                          SignIn
                         </Link>
                       </li>
                       <li>

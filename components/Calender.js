@@ -3,7 +3,7 @@ import {CgCalendarDates} from 'react-icons/cg'
 const Calender = () => {
   
   return (
-    <div className='container mx-auto py-10  flex flex-col gap-3 bg-gradient-to-r from-purple-50 via-purple-50 to-indigo-50 '>
+    <div className='container mx-auto py-10   xl:flex-col gap-3 bg-gradient-to-r from-purple-50 via-purple-50 to-indigo-50 hidden xl:flex'>
         <div className="grid grid-cols-6 gap-28 items-center text-xl capitalize font-normal w-full px-4 py-4 rounded-xl border border-gray-300 bg-primary
          text-white dark:bg-primary-50 hover:bg-primary dark:hover:bg-primary-50 text-center hover:text-white  ">
             <p>Roja no</p>
