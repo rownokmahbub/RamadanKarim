@@ -13,7 +13,7 @@ const DonationPrice = () => {
                   dark:hover:bg-primary-50 hover:text-white group">
                       <div className="flex justify-between items-center w-full mb-4">
                       <div>
-                              <p className='font-semibold text-base md:text-2xl'>Silver Pack</p>
+                              <p className='font-semibold text-base md:text-2xl'>Silver </p>
                               <p className='text-sm md:text-base'> 4 Member</p>
                           </div>
                           <div className='bg-[#edf3fa] dark:group-hover:bg-[#b3a980] group-hover:bg-amber-800 px-2 py-2 rounded-xl items-center flex flex-col justify-center ml-14'>
@@ -65,7 +65,7 @@ const DonationPrice = () => {
                   dark:hover:bg-primary-50 hover:text-white group">
                       <div className="flex justify-between items-center w-full mb-4">
                       <div>
-                              <p className='font-semibold text-base md:text-2xl'>Silver Pack</p>
+                              <p className='font-semibold text-base md:text-2xl'>Gold </p>
                               <p className='text-sm md:text-base'>Most Donated</p>
                           </div>
                           <div className='bg-slate-600 dark:group-hover:bg-[#b3a980] group-hover:bg-amber-800 px-2 py-2 rounded-xl items-center flex flex-col justify-center ml-14'>
@@ -116,7 +116,7 @@ const DonationPrice = () => {
                   dark:hover:bg-primary-50 hover:text-white group transition duration-300">
                       <div className="flex justify-between items-center w-full mb-4">
                           <div>
-                              <p className='font-semibold text-base md:text-2xl'>Silver Pack</p>
+                              <p className='font-semibold text-base md:text-2xl'>Platinum </p>
                               <p className='text-sm md:text-base'>Most Donated</p>
                           </div>
                           <div className='bg-[#edf3fa] dark:group-hover:bg-[#b3a980] group-hover:bg-amber-800 px-2 py-2 rounded-xl items-center flex flex-col justify-center ml-14'>
