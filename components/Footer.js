@@ -13,15 +13,15 @@ export const Footer = () => {
             >
         <img className="w-12 dark:sepia " src="./assets/logo.svg" alt="logo" />
               <span className="ml-2 text-xl font-bold tracking-wide text-white uppercase">
-               Raman
+               Ramadan
               </span>
             </Link>
             <div className="mt-6 lg:max-w-sm">
               <p className="text-sm text-white">
-               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni dolore minus asperiores ab doloribus velit officiis! Numquam tenetur non dolorum.
+              we welcome volunteers who are interested in helping us provide sehri and iftar meals to those in need during Ramadan. You can get in touch with us to learn more about volunteer opportunities and how you can get involved.
               </p>
               <p className="mt-4 text-sm text-white">
-               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit rem ducimus soluta reprehenderit omnis non.
+              Our organization is committed to transparency and accountability, and we provide regular updates on how donations are being used to support Ramadan-related initiatives. You can also contact us directly if you have any questions or concerns about how your donation will be used.
               </p>
             </div>
           </div>
@@ -97,14 +97,13 @@ export const Footer = () => {
               </Link>
             </div>
             <p className="mt-4 text-sm text-gray-200">
-              Bacon ipsum dolor amet short ribs pig sausage prosciutto chicken
-              spare ribs salami.
+              Contact with us for any quires if you needed
             </p>
           </div>
         </div>
         <div className="container mx-auto flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
           <p className="text-sm text-gray-300">
-            © Copyright 2020 Lorem Inc. All rights reserved.
+            © Copyright 2023 Ramadan Inc. All rights reserved.
           </p>
           <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
             <li>
