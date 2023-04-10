@@ -25,7 +25,7 @@ export const Nav = () => {
           <ul class="items-center hidden space-x-8 lg:flex">
             <li>
               <Link
-                href="/"
+                href="/aboutus"
                 aria-label="Our product"
                 title="Our product"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -35,7 +35,7 @@ export const Nav = () => {
             </li>
             <li>
               <Link
-                href="/"
+                href="/gallery"
                 aria-label="Our product"
                 title="Our product"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -129,7 +129,7 @@ export const Nav = () => {
                     <ul class="space-y-4">
                       <li>
                         <Link
-                          href="/"
+                          href="/aboutus"
                           aria-label="Our product"
                           title="Our product"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -139,7 +139,7 @@ export const Nav = () => {
                       </li>
                       <li>
                         <Link
-                          href="/"
+                          href="/gallery"
                           aria-label="Our product"
                           title="Our product"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"

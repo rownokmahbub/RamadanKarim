@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export const Footer = () => {
     return (
-      <div className=" mt-10 bg-slate-800">
+      <div className=" bg-slate-800">
         <div className="container mx-auto grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4 pt-10">
           <div className="sm:col-span-2">
             <Link
