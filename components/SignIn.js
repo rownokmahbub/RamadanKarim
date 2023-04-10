@@ -24,20 +24,20 @@ const SignIn = () => {
        }}
      >
        {({ errors, touched }) => (
-         <Form className='flex flex-col gap-6 px-4 py-4 border border-gray-300 rounded-2xl shadow-2xl shadow-blue-50'>
-            <p className='text-center font-semibold text-2xl mb-4'>Sign in to your Account</p>
-           <Field name="fname" type='email' className='px-2 py-3 bg-white border xl:w-[500px] border-gray-300 rounded-lg focus:outline-none' placeholder='Rownok'/>
+         <Form className='flex my-20 md:my-0  flex-col gap-6 px-4 py-4 border border-gray-300 rounded-2xl shadow-2xl shadow-blue-50 w-full'>
+            <p className='text-center font-semibold text-lg md:text-2xl mb-4'>Sign in to your Account</p>
+           <Field name="fname" type='email' className='px-2 py-2 md:py-3 bg-white border border-gray-300 rounded-lg focus:outline-none' placeholder='Rownok'/>
            {errors.fname && touched.fname ? (
              <div className='text-red-500 dark:text-primary-50 text-sm'>{errors.fname}</div>
            ) : null}
          
-           <Field name="pass" type="password" className='px-2 py-3 bg-white border border-gray-300 rounded-lg focus:outline-none' placeholder='******* '/>
+           <Field name="pass" type="password" className='px-2 py-2 md:py-3 bg-white border border-gray-300 rounded-lg focus:outline-none' placeholder='******* '/>
            {errors.pass && touched.pass ? <div  className='text-red-500 dark:text-primary-50 text-sm'>{errors.pass}</div> : null}
            <button  className='btn btn-primary dark:bg-primary-50' type="submit">Submit</button>
          </Form>
        )}
      </Formik>
-     <img className='xl:w-xl dark:hue-rotate-180' src="/assets/login.png" alt="login page" />
+     <img className='md:w-[700px] dark:hue-rotate-180 hidden md:flex' src="/assets/login.png" alt="login page" />
     </div>
   )
 }
