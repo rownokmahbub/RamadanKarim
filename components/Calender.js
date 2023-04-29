@@ -3,8 +3,8 @@ import {CgCalendarDates} from 'react-icons/cg'
 const Calender = () => {
   
   return (
-    <div className='container mx-auto py-10   xl:flex-col gap-3 bg-gradient-to-r from-purple-50 via-purple-50 to-indigo-50 hidden xl:flex'>
-        <div className="grid grid-cols-6 gap-28 items-center text-xl capitalize font-normal w-full px-4 py-4 rounded-xl border border-gray-300 bg-primary
+    <div className='  xl:flex-col gap-3 bg-gradient-to-r from-purple-50 via-purple-50 to-indigo-50 hidden xl:flex'>
+        <div className=" container mx-auto py-4 my-4 grid grid-cols-6 gap-28 items-center text-xl capitalize font-normal w-full px-4 rounded-xl border border-gray-300 bg-primary
          text-white dark:bg-primary-50 hover:bg-primary dark:hover:bg-primary-50 text-center hover:text-white  ">
             <p>Roja no</p>
             <p>Month</p>
@@ -14,7 +14,7 @@ const Calender = () => {
             <p>Fajar Time</p>
         </div>
       
-      <div className="border-2 border-primary dark:border-primary-50 px-4 py-4 flex flex-col gap-4 rounded-2xl shadow-2xl shadow-primary/30 dark:shadow-primary-50/30 mb-5">
+      <div className=" container mx-auto border-2 border-primary dark:border-primary-50 px-4 py-4 flex flex-col gap-4 rounded-2xl shadow-2xl shadow-primary/30 dark:shadow-primary-50/30 mb-5">
       <div className="grid grid-cols-6 gap-28 items-center text-xl capitalize font-normal w-full px-4 py-4 rounded-xl border border-gray-300 hover:bg-primary dark:hover:bg-primary-50 text-center hover:text-white  ">
         <p>01</p>
         <p>23 Apr 2023</p>
@@ -105,7 +105,7 @@ const Calender = () => {
     </div>
       </div>
       
-      <div className="border-2 border-primary dark:border-primary-50 px-4 py-4 flex flex-col gap-4 rounded-2xl shadow-2xl shadow-primary/30 dark:shadow-primary-50/30 my-5">
+      <div className=" container mx-auto border-2 border-primary dark:border-primary-50 px-4 py-4 flex flex-col gap-4 rounded-2xl shadow-2xl shadow-primary/30 dark:shadow-primary-50/30 my-5">
       <div className="grid grid-cols-6 gap-28 items-center text-xl capitalize font-normal w-full px-4 py-4 rounded-xl border border-gray-300 hover:bg-primary dark:hover:bg-primary-50 text-center hover:text-white  ">
         <p>11</p>
         <p>03 May 2023</p>
@@ -191,7 +191,7 @@ const Calender = () => {
         <p>6:33 PM</p>
     </div>
         </div>
-        <div className="border-2 border-primary dark:border-primary-50 px-4 py-4 flex flex-col gap-4 rounded-2xl shadow-2xl shadow-primary/30 dark:shadow-primary-50/30 my-5">
+        <div className="container mx-auto border-2 border-primary dark:border-primary-50 px-4 py-4 flex flex-col gap-4 rounded-2xl shadow-2xl shadow-primary/30 dark:shadow-primary-50/30 my-5">
         <div className="grid grid-cols-6 gap-28 items-center text-xl capitalize font-normal w-full px-4 py-4 rounded-xl border border-gray-300 hover:bg-primary dark:hover:bg-primary-50 text-center hover:text-white  ">
         <p>21</p>
         <p>13 May 2023</p>

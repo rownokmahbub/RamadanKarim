@@ -9,8 +9,8 @@ export const Nav = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
   
     return (
-      <div class="relative">
-        <div class="container mx-auto bg-white  py-2  flex items-center justify-between fixed top-0 left-0 right-0 z-40">
+      <div class="relative container mx-auto">
+        <div class=" bg-white md:px-20 w-full py-2  flex items-center justify-between fixed top-0 left-0 right-0 z-40">
           <Link
             href="/"
             aria-label="Company"

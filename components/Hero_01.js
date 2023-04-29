@@ -16,8 +16,8 @@ const Hero_01 = () => {
   }
 
   return (
-    <div className=" mx-auto bg-gradient-to-r from-indigo-50 via-purple-50 to-pink-50 py-10">
-      <div className="container gap-5 xl:justify-between px-2 md:px-20 py-16 rounded-3xl items-center flex flex-col xl:flex-row  ">
+    <div className=" bg-gradient-to-r from-indigo-50 via-purple-50 to-pink-50 py-10">
+      <div className="container mx-auto gap-5 xl:justify-between px-2 md:px-20 py-16 rounded-3xl items-center flex flex-col xl:flex-row  ">
       <div className="flex flex-col gap-10 md:flex-row justify-center md:justify-between items-center">
         <div className="flex flex-col gap-10  items-center md:items-start">
           <p className="text-3xl md:text-5xl lg:text-6xl font-semibold  text-center md:text-start">Celebrate <span className="text-primary dark:text-primary-50">Ramadan</span>  <br /> With Everyone</p>

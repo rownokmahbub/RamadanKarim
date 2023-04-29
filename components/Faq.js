@@ -3,8 +3,8 @@ import { IoIosArrowDown } from 'react-icons/io'
 
 export default function Faq() {
   return (
-    <div className="container">
-      <div className="mx-auto w-full  rounded-3xl bg-white p-2 py-10">
+    <div className="">
+      <div className="container mx-auto w-full  rounded-3xl bg-white p-2 py-10">
         <p className='text-center text-2xl md:text-4xl font-semibold mb-7'>Frequently asked Questions</p>
         <Disclosure >
           {({ open }) => (

@@ -9,9 +9,9 @@ const SignIn = () => {
     pass:Yup.string().max(20).min(6)
   })
   return (
-    <div className='container mx-auto md:h-screen flex flex-col xl:flex-row justify-between items-center bg-gradient-to-r from-indigo-50 via-purple-50 to-pink-50'>
+    <div className=' md:px-20 md:h-screen flex flex-col xl:flex-row justify-between items-center bg-gradient-to-r from-indigo-50 via-purple-50 to-pink-50'>
        
- <Formik
+ <Formik as='div' className='container mx-auto'
        initialValues={{
          fname: '',
          lname: '',
