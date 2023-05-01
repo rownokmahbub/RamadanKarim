@@ -6,7 +6,7 @@ const AboutUs = () => {
       <div className="container gap-5 xl:justify-between px-2 md:px-20 py-16 rounded-3xl items-center flex flex-col xl:flex-row">
       <div className="flex flex-col gap-10 md:flex-row justify-center md:justify-between items-center">
         <div className="flex flex-col gap-10  items-center md:items-start">
-          <p className="text-3xl md:text-5xl lg:text-6xl font-semibold  text-center md:text-start">Make <span className="text-primary dark:text-primary-50">People</span>  <br /> Happy With Fod</p>
+          <p className="text-3xl md:text-5xl lg:text-6xl font-semibold  text-center md:text-start">Make <span className="text-primary dark:text-primary-50">People</span>  <br /> Happy With Food</p>
           <p className="text-base md:text-lg  text-center md:text-start">Welcome to our Ramadan website, where we strive to make a difference in <br /> the lives of those in need during the holy month of Ramadan. We are a <br /> non-profit organization that is dedicated to providing support and <br /> assistance to underprivileged individuals and families in our local communities.</p>
         
       
